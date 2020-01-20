@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABFD6C423CFDF9C00F0D03B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABFD6C323CFDF9C00F0D03B /* AppDelegate.swift */; };
+		AABFD6C623CFDF9C00F0D03B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABFD6C523CFDF9C00F0D03B /* ViewController.swift */; };
+		AABFD6CB23CFDF9C00F0D03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6C923CFDF9C00F0D03B /* Main.storyboard */; };
+		AABFD6CD23CFDF9D00F0D03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6CC23CFDF9D00F0D03B /* Assets.xcassets */; };
+		AABFD6D023CFDF9D00F0D03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6CE23CFDF9D00F0D03B /* LaunchScreen.storyboard */; };
+		AABFD6D823CFE2B700F0D03B /* InstrumentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABFD6D723CFE2B700F0D03B /* InstrumentEntity.swift */; };
+		AABFD6E823CFFD5700F0D03B /* drums.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6E723CFFD5700F0D03B /* drums.usdz */; };
+		AABFD6EA23CFFD6400F0D03B /* trumpet.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6E923CFFD6400F0D03B /* trumpet.usdz */; };
+		AABFD6EC23D13E2100F0D03B /* Entity+setSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABFD6EB23D13E2100F0D03B /* Entity+setSize.swift */; };
+		AABFD6EE23D14AE400F0D03B /* guitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6ED23D14AE400F0D03B /* guitar.usdz */; };
+		AABFD6F023D165E700F0D03B /* trumpet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6EF23D165E700F0D03B /* trumpet.mp3 */; };
+		AABFD6F223D165F200F0D03B /* drums.wav in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6F123D165F200F0D03B /* drums.wav */; };
+		AABFD6F423D165FC00F0D03B /* guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = AABFD6F323D165FC00F0D03B /* guitar.wav */; };
+		AABFD6F623D2B55E00F0D03B /* InstrumentComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABFD6F523D2B55E00F0D03B /* InstrumentComponent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AABFD6C023CFDF9C00F0D03B /* Instrument Zoo Final Product.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instrument Zoo Final Product.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABFD6C323CFDF9C00F0D03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AABFD6C523CFDF9C00F0D03B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AABFD6CA23CFDF9C00F0D03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AABFD6CC23CFDF9D00F0D03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AABFD6CF23CFDF9D00F0D03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AABFD6D123CFDF9D00F0D03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABFD6D723CFE2B700F0D03B /* InstrumentEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentEntity.swift; sourceTree = "<group>"; };
+		AABFD6E723CFFD5700F0D03B /* drums.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drums.usdz; sourceTree = "<group>"; };
+		AABFD6E923CFFD6400F0D03B /* trumpet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = trumpet.usdz; sourceTree = "<group>"; };
+		AABFD6EB23D13E2100F0D03B /* Entity+setSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+setSize.swift"; sourceTree = "<group>"; };
+		AABFD6ED23D14AE400F0D03B /* guitar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = guitar.usdz; sourceTree = "<group>"; };
+		AABFD6EF23D165E700F0D03B /* trumpet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trumpet.mp3; sourceTree = "<group>"; };
+		AABFD6F123D165F200F0D03B /* drums.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drums.wav; sourceTree = "<group>"; };
+		AABFD6F323D165FC00F0D03B /* guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar.wav; sourceTree = "<group>"; };
+		AABFD6F523D2B55E00F0D03B /* InstrumentComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentComponent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABFD6BD23CFDF9C00F0D03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABFD6B723CFDF9C00F0D03B = {
+			isa = PBXGroup;
+			children = (
+				AABFD6C223CFDF9C00F0D03B /* Instrument Zoo */,
+				AABFD6C123CFDF9C00F0D03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABFD6C123CFDF9C00F0D03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABFD6C023CFDF9C00F0D03B /* Instrument Zoo Final Product.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABFD6C223CFDF9C00F0D03B /* Instrument Zoo */ = {
+			isa = PBXGroup;
+			children = (
+				AABFD6F723D2B68E00F0D03B /* Resources */,
+				AABFD6C323CFDF9C00F0D03B /* AppDelegate.swift */,
+				AABFD6C523CFDF9C00F0D03B /* ViewController.swift */,
+				AABFD6D723CFE2B700F0D03B /* InstrumentEntity.swift */,
+				AABFD6F523D2B55E00F0D03B /* InstrumentComponent.swift */,
+				AABFD6EB23D13E2100F0D03B /* Entity+setSize.swift */,
+				AABFD6C923CFDF9C00F0D03B /* Main.storyboard */,
+				AABFD6CC23CFDF9D00F0D03B /* Assets.xcassets */,
+				AABFD6CE23CFDF9D00F0D03B /* LaunchScreen.storyboard */,
+				AABFD6D123CFDF9D00F0D03B /* Info.plist */,
+			);
+			path = "Instrument Zoo";
+			sourceTree = "<group>";
+		};
+		AABFD6F723D2B68E00F0D03B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABFD6ED23D14AE400F0D03B /* guitar.usdz */,
+				AABFD6EF23D165E700F0D03B /* trumpet.mp3 */,
+				AABFD6E923CFFD6400F0D03B /* trumpet.usdz */,
+				AABFD6E723CFFD5700F0D03B /* drums.usdz */,
+				AABFD6F123D165F200F0D03B /* drums.wav */,
+				AABFD6F323D165FC00F0D03B /* guitar.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABFD6BF23CFDF9C00F0D03B /* Instrument Zoo Final Product */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABFD6D423CFDF9D00F0D03B /* Build configuration list for PBXNativeTarget "Instrument Zoo Final Product" */;
+			buildPhases = (
+				AABFD6BC23CFDF9C00F0D03B /* Sources */,
+				AABFD6BD23CFDF9C00F0D03B /* Frameworks */,
+				AABFD6BE23CFDF9C00F0D03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Instrument Zoo Final Product";
+			productName = "Instrument Zoo";
+			productReference = AABFD6C023CFDF9C00F0D03B /* Instrument Zoo Final Product.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABFD6B823CFDF9C00F0D03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ethan Saadia";
+				TargetAttributes = {
+					AABFD6BF23CFDF9C00F0D03B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AABFD6BB23CFDF9C00F0D03B /* Build configuration list for PBXProject "Instrument Zoo Final Product" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABFD6B723CFDF9C00F0D03B;
+			productRefGroup = AABFD6C123CFDF9C00F0D03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABFD6BF23CFDF9C00F0D03B /* Instrument Zoo Final Product */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABFD6BE23CFDF9C00F0D03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABFD6D023CFDF9D00F0D03B /* LaunchScreen.storyboard in Resources */,
+				AABFD6F423D165FC00F0D03B /* guitar.wav in Resources */,
+				AABFD6EA23CFFD6400F0D03B /* trumpet.usdz in Resources */,
+				AABFD6F223D165F200F0D03B /* drums.wav in Resources */,
+				AABFD6CD23CFDF9D00F0D03B /* Assets.xcassets in Resources */,
+				AABFD6EE23D14AE400F0D03B /* guitar.usdz in Resources */,
+				AABFD6F023D165E700F0D03B /* trumpet.mp3 in Resources */,
+				AABFD6CB23CFDF9C00F0D03B /* Main.storyboard in Resources */,
+				AABFD6E823CFFD5700F0D03B /* drums.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABFD6BC23CFDF9C00F0D03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABFD6C623CFDF9C00F0D03B /* ViewController.swift in Sources */,
+				AABFD6C423CFDF9C00F0D03B /* AppDelegate.swift in Sources */,
+				AABFD6EC23D13E2100F0D03B /* Entity+setSize.swift in Sources */,
+				AABFD6F623D2B55E00F0D03B /* InstrumentComponent.swift in Sources */,
+				AABFD6D823CFE2B700F0D03B /* InstrumentEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AABFD6C923CFDF9C00F0D03B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABFD6CA23CFDF9C00F0D03B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AABFD6CE23CFDF9D00F0D03B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABFD6CF23CFDF9D00F0D03B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AABFD6D223CFDF9D00F0D03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABFD6D323CFDF9D00F0D03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABFD6D523CFDF9D00F0D03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3NGVGY2HM;
+				INFOPLIST_FILE = "Instrument Zoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethansaadia.Instrument-Zoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AABFD6D623CFDF9D00F0D03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3NGVGY2HM;
+				INFOPLIST_FILE = "Instrument Zoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethansaadia.Instrument-Zoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABFD6BB23CFDF9C00F0D03B /* Build configuration list for PBXProject "Instrument Zoo Final Product" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABFD6D223CFDF9D00F0D03B /* Debug */,
+				AABFD6D323CFDF9D00F0D03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABFD6D423CFDF9D00F0D03B /* Build configuration list for PBXNativeTarget "Instrument Zoo Final Product" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABFD6D523CFDF9D00F0D03B /* Debug */,
+				AABFD6D623CFDF9D00F0D03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABFD6B823CFDF9C00F0D03B /* Project object */;
+}
